@@ -1,0 +1,17 @@
+{
+    "AWSProfile": "<your aws account profile>",
+    "DatabaseName": "field_result_database",
+    "TableName": "<your table name>",
+    "CrawlerName": "field_result_table_crawler",
+    "TriggerCrawler": false,
+    "OutputS3BucketName": "<your s3 bucket>-query-result",
+    "OutputPath": "mapCreator-aggregates",
+    "H3Resolution": "h9",
+    "ShapeFilePath": "<your shapefile path>",
+    "TimeFilter": "prt_year='<year filter>' AND prt_week='<week filter>'",
+    "DeviceFilter" : "prt_deviceId='<your device id>'",
+    "Coordinate": {
+        "Longitude": 0,
+        "Latitude": 0
+    }
+}
