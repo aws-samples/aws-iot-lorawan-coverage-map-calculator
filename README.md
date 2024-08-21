@@ -211,17 +211,17 @@ cdk deploy --all
 
 ### Configuring LoRaWAN Devices
 
-Once  you deploy the stack you will find LoRaWAN Destinations, Service Profile and Device Profile created for you.
+Once you deploy the stack you will find LoRaWAN Destinations, Service Profile and Device Profile created for you.
 
 <img src="./doc/LoRaWAN-Destinations.png">
 
 <img src="./doc/LoRaWAN-Profiles.png">
 
-You need not to create a LoRaWAN Device and select one of the two pre-defined Destination according to the device type you are configuring. 
+You need now to create a LoRaWAN Device and select one of the two pre-defined Destination according to the device type you are configuring. 
 
-Similarly select the pre-defined Profiles.
+Similarly select the pre-defined Profiles (Device and Service).
 
-When  your device is active and connected to the LoRaWAN Network you should see data flowing on the MQTT topics described above and into the DataLake. 
+When your device is active and connected to the LoRaWAN Network you should see data flowing on the MQTT topics described above and into the DataLake. 
 
 _NOTE: the configuration of your Gateways is out of the scope of this guide. Anyway, if you are into an area covered by our LoRaWAN Partner Network you will be able to leverage that network without installing your gateways._
 
